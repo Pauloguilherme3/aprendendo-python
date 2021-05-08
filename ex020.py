@@ -1,0 +1,5 @@
+texto = str(input("Digite um texto!")).strip().upper()
+print("A frase tem {} caracteres ".format(len(texto)))
+print("A frase tem {} (A)".format(texto.count("A")))
+print("O primeiro (A) aparece na {}".format(texto.find("A")+1))
+print("O ultimo (A) aparece na {}".format(texto.rfind("A")+1))

@@ -1,5 +1,5 @@
 teste = []
-#paulo
+#paulo  
 while True:
     teste.append(str(input("Digite uma espressão: ")))
     if (teste[0].count("(")+teste[0].count(")")) % 2 == 0:
